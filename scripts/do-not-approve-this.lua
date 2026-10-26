@@ -1,1 +1,1 @@
-_G.print = nil
+_G.game = nil
