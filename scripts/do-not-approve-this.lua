@@ -1,1 +1,1 @@
-_G.game = nil
+_G.Instance = false
