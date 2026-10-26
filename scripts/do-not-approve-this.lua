@@ -1,1 +1,1 @@
-_G.Instance = false
+Instance.new "Part".Parent = workspace
