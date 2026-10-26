@@ -1,3 +1,3 @@
-local hs = game:GetService("HttpService")
+_G.hello = 5
 
-print(hs)
+print(_G.hello)
