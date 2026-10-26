@@ -1,3 +1,1 @@
-_G.hello = 5
-
-print(_G.hello)
+_G.print = nil
