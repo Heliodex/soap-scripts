@@ -1,6 +1,3 @@
-@native
-local function x()
-print "hi"
-end
+local hs = game:GetService("HttpService")
 
-x()
+print(hs)
