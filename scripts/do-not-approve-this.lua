@@ -1,5 +1,6 @@
-for i, v in workspace:GetChildren() do
-	if v:IsA "BasePart" then
-		v.Anchored = false
-	end
+@native
+local function x()
+print "hi"
 end
+
+x()
