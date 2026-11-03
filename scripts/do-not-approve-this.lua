@@ -6,6 +6,7 @@ for i = 1, 200 do
 	if pos then
 		p.Position = pos.Parent:FindFirstChild("HumanoidRootPart").Position
 	end
+	p.Size = Vector3.new(math.random() * 10,math.random() * 10,math.random() * 10)
 	p.Parent = Workspace
 	task.wait()
 end
