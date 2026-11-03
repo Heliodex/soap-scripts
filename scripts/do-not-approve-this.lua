@@ -1,1 +1,1 @@
-Instance.new "Part".Parent = workspace
+const part = Instance.new "Part".Parent = workspace
