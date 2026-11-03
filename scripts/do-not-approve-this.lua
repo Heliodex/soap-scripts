@@ -1,1 +1,5 @@
-const part = Instance.new "Part".Parent = workspace
+for i = 1, 200 do
+	const p = Instance.new "Part"
+	p.Parent = Workspace
+	task.wait()
+end
