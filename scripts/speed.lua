@@ -1,2 +1,2 @@
 workspace.Heliodex.Humanoid.WalkSpeed = 45
-workspace.Heliodex.Humanoid.JumpPower = 200
+workspace.Heliodex.Humanoid.JumpPower = 50
