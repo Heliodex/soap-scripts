@@ -1,6 +1,5 @@
-for i = 1, 200 do
+for i = 1, 2000 do
 	const pos = workspace:FindFirstChildOfClass("Humanoid")
-	print(pos)
 	const p = Instance.new "Part"
 	p.Parent = Workspace
 	if pos then
