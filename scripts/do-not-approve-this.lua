@@ -6,5 +6,6 @@ for i = 1, 200 do
 	if pos then
 		p.Position = pos.Parent:FindFirstChild("HumanoidRootPart").Position
 	end
+	
 	task.wait()
 end
