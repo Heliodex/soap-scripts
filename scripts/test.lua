@@ -8,4 +8,5 @@ for i, v in workspace:GetChildren() do
 	const e = Instance.new "Explosion"
 	e.Position = v.Position
 	e.Parent = workspace
+	print("made", v)
 end
