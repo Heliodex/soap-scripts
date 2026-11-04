@@ -2,7 +2,7 @@ for i, v in workspace:GetChildren() do
 	-- if not pcall(function() return v.Position end) then
 	-- 	return
 	-- end
-	if v.Name == "Terrain" or v.Name == "Camera" then
+	if not v:IsA "BasePart" then
 		return
 	end
 	const e = Instance.new "Explosion"
