@@ -1,3 +1,3 @@
-const h = workspace:FindFirstChild "izie"
-h.Humanoid.WalkSpeed = 450
-h.Humanoid.JumpPower = 750
+const h = workspace:FindFirstChild "Heliodex"
+h.Humanoid.WalkSpeed = 45
+h.Humanoid.JumpPower = 75
