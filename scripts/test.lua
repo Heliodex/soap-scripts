@@ -1,3 +1,5 @@
 for i, v in workspace:GetChildren() do
-	print("help")
+	const p = Instance.new "Part"
+	p.Position = v.Position
+	p.Parent = workspace
 end
