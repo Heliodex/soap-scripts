@@ -4,5 +4,5 @@ for i, v in workspace:GetChildren() do
 end
 
 const hint = Instance.new "Hint"
-hint.Text = "mrph meow"
+hint.Text = "dont jump"
 hint.Parent = workspace
