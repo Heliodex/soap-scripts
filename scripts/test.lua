@@ -1,2 +1,4 @@
 for i, v in workspace:GetChildren() do
-if pcall(function() return v.Anchored end) then v.Anchored = false end end
+	const e = Instance.new "Explosion"
+	
+	e.Position = v.Position
